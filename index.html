@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Web Basics</title>
+        <style>
+            /*Regular selector*/
+            body {
+background-color: rgb(160, 102, 102);
+            }
+            h1, p{
+                color: darkblue;
+            }
+
+            h4, li {
+                color: rgb(168, 19, 44);
+            }
+            img{
+                border: 3px solid darkgreen;
+                border-radius: 50%;
+            }
+            /* Class selector*/
+
+.importantbox{
+    border: 2px solid rgb(160, 151, 26);
+    margin: 40px;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+        </style>
+    </head>
+    <body>
+<h1>Hello World</h1>
+<!--it's for the notes-->
+<p>This is the page of <b>J23-E03</b></p>
+
+<h4>Best animals</h4>
+<ul>
+    <li>Cat</li>
+    <li>Dog</li>
+    <li>Duck</li>
+    <li>Goat</li>
+    </ul>
+    
+    <img title="Kitten" src="download.jpeg" alt="Kitten">
+    <img src="blabla" alt="Broken pic">
+<hr title="Secret message">
+
+<main class="importantbox">
+    This is an important box
+
+    <div class="importantbox">
+        Some div text
+
+    </div>
+</main>
+
+<!--Remember when we talked about request response-->
+<!--This form will send a GET request-->
+
+<form action="https://ddh.gg" method="get" class="importantbox">
+
+    <input name="q" placeholder="Input search string">
+    <button>Search</button>
+    <!--
+        q-Becaus of the form method Get and the from URl is
+        "https://ddh.gg" and the input element is "q", the final request URS will be https://ddh.gg//q=something
+    -->
+</form>
+<br>
+<br>
+<br>
+<br>
+<p>That is all!</p>
+    </body>
+</html>
