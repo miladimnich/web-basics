@@ -4,7 +4,7 @@
         <style>
             /*Regular selector*/
             body {
-background-color: rgb(160, 102, 102);
+background-color: rgb(171, 189, 150);
             }
             h1, p{
                 color: darkblue;
@@ -17,14 +17,36 @@ background-color: rgb(160, 102, 102);
                 border: 3px solid darkgreen;
                 border-radius: 50%;
             }
+            a {
+                cursor: pointer;
+            }
             /* Class selector*/
 
 .importantbox{
-    border: 2px solid rgb(160, 151, 26);
+    border: 5px solid rgb(160, 151, 26);
     margin: 40px;
     margin-top: 50px;
+    background-color: #55159e;
     padding: 40px;
+
+   
 }
+.importantbox2{
+    
+    border: 12px solid rgb(160, 151, 26);
+    margin: 50px;
+    
+    background-color: #55159e;
+    padding: 10px; 
+    margin-bottom: 50px
+  
+
+}
+div {
+  width:300px;
+  margin:auto;
+}
+
 
         </style>
     </head>
@@ -33,7 +55,7 @@ background-color: rgb(160, 102, 102);
 <!--it's for the notes-->
 <p>This is the page of <b>J23-E03</b></p>
 
-<h4>Best animals</h4>
+<h4>Best animals</h4> 
 <ul>
     <li>Cat</li>
     <li>Dog</li>
@@ -41,23 +63,44 @@ background-color: rgb(160, 102, 102);
     <li>Goat</li>
     </ul>
     
-    <img title="Kitten" src="download.jpeg" alt="Kitten">
+    <img title="Kitten" src="/home/dci-student/Documents/projects/web/web-basics/download.jpeg" alt="Kitten">
     <img src="blabla" alt="Broken pic">
+    
 <hr title="Secret message">
 
 <main class="importantbox">
     This is an important box
 
     <div class="importantbox">
-        Some div text
+        Some div text  
+
+ 
 
     </div>
+
+    <div>
+        <h2>London</h2>
+        <p>London is the capital city of England.</p>
+        <p>London has over 13 million inhabitants.</p>
+      </div>
+
+    
+    
+</main>
+<main class="importantbox2">
+    This is not important box
+    <div class="importantbox2">
+        Some div text   
+
+    </div>
+
+
 </main>
 
 <!--Remember when we talked about request response-->
 <!--This form will send a GET request-->
 
-<form action="https://ddh.gg" method="get" class="importantbox">
+<form action="https://www.ebay.de/" method="get" class="importantbox">
 
     <input name="q" placeholder="Input search string">
     <button>Search</button>
@@ -69,7 +112,12 @@ background-color: rgb(160, 102, 102);
 <br>
 <br>
 <br>
-<br>
-<p>That is all!</p>
+
+
+<p>That is all!
+
+    <a href="https://allaboutanimalsrescue.org/">Visit this web site for the more information!</a>
+
+</p>
     </body>
 </html>
